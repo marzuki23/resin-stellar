@@ -1,4 +1,4 @@
-Project Stellar
+<img width="1920" height="965" alt="image" src="https://github.com/user-attachments/assets/5af4ae16-4bd5-4c82-a439-f5b2fcd20fc2" />Project Stellar
 
 Blockchain-Based Certificate Verification Platform built on Stellar Soroban Smart Contracts.
 
@@ -102,6 +102,12 @@ https://stellar.expert/explorer/testnet/contract/CCHF4ZP5RREAUDUDXC266Q6HXDI6Z46
 ### 🔗 Stellar Blockchain Proof
 
 ![Blockchain Proof](screenshots/stellar-proof.png)
+
+---
+
+### Stellar Expert
+
+![Stellar Expert](screenshots/stellar_expert.png)
 
 ---
 
