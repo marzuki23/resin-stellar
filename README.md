@@ -142,7 +142,7 @@ Revokes certificates that are invalid, fraudulent, or expired.
 
 ### Clone Repository
 
-```bash
+bash
 git clone https://github.com/marzuki23/resin-stellar.git
 
 ---
