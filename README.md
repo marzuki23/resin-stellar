@@ -144,6 +144,9 @@ Revokes certificates that are invalid, fraudulent, or expired.
 
 ```bash
 git clone https://github.com/marzuki23/resin-stellar.git
+
+---
+
 Frontend Setup
 cd frontend
 npm install
