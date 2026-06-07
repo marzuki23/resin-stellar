@@ -1,101 +1,79 @@
-Soroban Project
+EduCert Stellar
 
-Decentralized Certificate Verification System on Stellar Blockchain
+Blockchain-based Certificate Verification System built on Stellar Soroban Smart Contracts.
 
-🧠 Overview
+Overview
 
-EduCert Stellar is a Web3 certificate verification platform that eliminates fake certificates using Stellar Soroban Smart Contracts.
+EduCert Stellar is a simple and secure certificate verification platform that uses blockchain technology to prevent fake certificates.
 
-Every certificate is:
+Certificates are stored and verified using the Stellar network to ensure authenticity and transparency.
 
-🔐 Immutable
-🌐 Publicly verifiable
-⛓️ Stored on blockchain
-⚡ Key Highlights
-<p align="center">
-Feature	Description
-📜 Certificate Issuance	Issue certificates on-chain
-🔍 Verification System	Instant blockchain validation
-❌ Revocation	Revoke invalid certificates
-📷 QR Support	Scan & verify instantly
-🧾 Image Upload	Certificate visual proof
-⛓️ On-chain Storage	Powered by Soroban
-</p>
-🏗️ Tech Stack
-🎨 Frontend
-React.js ⚛️
-Vite ⚡
-CSS3 🎨
-QRCode React 📷
-⛓️ Blockchain
+Features
+Issue digital certificates on blockchain
+Verify certificate authenticity
+Revoke invalid certificates
+QR code-based verification
+Certificate image upload support
+On-chain validation using Soroban
+Tech Stack
+
+Frontend
+
+React
+Vite
+CSS
+QRCode React
+
+Blockchain
+
 Stellar Soroban Smart Contracts
-Rust 🦀
+Rust
 Stellar CLI
-🌐 Live Blockchain Deployment
-🧾 Contract ID (Mainnet)
-CCHF4ZP5RREAUDUDXC266Q6HXDI6Z46GR4Z2EDKYEJGV24NDX5JK3VGC
-🌍 Network
+Smart Contract
+Contract ID (Mainnet)
+CCUZOSAT5KAMPCTWY4YDUC7WTBAVFYRM6BN3ZUPSTTLHPIG65N6UU6OW
+Network
+
 Stellar Mainnet
-👤 Issuer Address
-GBSRCEARHBTEEJAJ6OG6UMOWQBO6K4YYCTDGUOHIGRGNXPA5FZESKSR4
-🔎 Blockchain Explorer
 
-View on Stellar Expert
+Issuer Address
+GAPUGHPKCGJWLKPQLQDINC5BEP3MASLNVIRHEZDVSDOBFWRWSY7WR5WZ
+Explorer
 
-🧪 Smart Contract Functions
-📌 issue_certificate
+https://stellar.expert/explorer/public/contract/CCUZOSAT5KAMPCTWY4YDUC7WTBAVFYRM6BN3ZUPSTTLHPIG65N6UU6OW
 
-Creates a new certificate on blockchain.
+Smart Contract Functions
+issue_certificate → Create certificate
+verify_certificate → Validate certificate
+revoke_certificate → Disable certificate
+Screenshots
 
-🔍 verify_certificate
+Add screenshots in /screenshots:
 
-Validates certificate authenticity.
+home.png
+verify.png
+dashboard.png
+mainnet.png
+Problem
 
-❌ revoke_certificate
+Fake certificates are still widely used and hard to detect in traditional systems.
 
-Deactivates invalid certificates.
+Solution
 
-📸 Application Preview
-<p align="center">
-🏠 Home Page
+This project uses blockchain to ensure:
 
-🔍 Verification Page
+Certificates cannot be forged
+Verification is instant
+Data is transparent
+Future Improvements
+Wallet authentication
+NFT certificates
+IPFS storage
+Multi-institution support
+Developer
 
-📊 Dashboard
+Izath
 
-⛓️ Mainnet Proof
-
-</p>
-🚨 Problem Statement
-
-Traditional certificates are:
-
-❌ Easy to fake
-❌ Hard to verify
-❌ Not globally trusted
-💡 Solution
-
-EduCert Stellar solves this by:
-
-✔ Using blockchain verification
-✔ Providing real-time authenticity check
-✔ Preventing certificate fraud
-🚀 Future Improvements
-🔐 Wallet Authentication (Freighter)
-🎓 NFT Certificates
-📦 IPFS Storage
-🏫 Multi-institution System
-📱 Mobile App Version
-🌍 Mainnet scaling
-👨‍💻 Developer
-
-Muhammad Idris Marzuki
-
-🏁 Project Status
-<p align="center">
-
-🚀 Deployed on Stellar Mainnet
-🌐 Frontend Ready for Vercel Deployment
-⛓️ Smart Contract Active
-
-</p>
+Status
+Smart contract deployed on Stellar mainnet
+Frontend ready for deployment
