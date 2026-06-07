@@ -1,4 +1,4 @@
-<img width="1920" height="965" alt="image" src="https://github.com/user-attachments/assets/5af4ae16-4bd5-4c82-a439-f5b2fcd20fc2" />Project Stellar
+Project Stellar
 
 Blockchain-Based Certificate Verification Platform built on Stellar Soroban Smart Contracts.
 
