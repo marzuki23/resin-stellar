@@ -151,16 +151,24 @@ Frontend Setup
 cd frontend
 npm install
 npm run dev
+
+---
+
 🔨 Smart Contract Deployment
 Build Smart Contract
 stellar contract build
 Deploy Smart Contract
 stellar contract deploy --wasm target/wasm32v1-none/release/hello_world.wasm --source alice --network testnet
+
+---
+
 🎯 Problem Statement
 
 Fake certificates and unverifiable credentials are major issues in digital education systems.
 
 Many institutions still rely on centralized or paper-based verification systems that are vulnerable to manipulation and forgery.
+
+---
 
 💡 How It Works
 User uploads certificate image
@@ -168,10 +176,16 @@ System generates SHA-256 hash
 Hash is stored via smart contract
 Certificate is verified using ID or QR
 Blockchain ensures authenticity
+
+---
+
 🔒 Security Approach
 Certificate images are stored off-chain
 Only SHA-256 hashes are stored on blockchain
 Ensures privacy, scalability, and efficiency
+
+---
+
 🌍 Future Improvements
 Wallet Authentication
 IPFS Integration
@@ -180,11 +194,16 @@ Mainnet Deployment
 Multi-Institution Support
 Real-Time Blockchain Sync
 AI-Based Fake Certificate Detection
+
+---
+
 👨‍💻 Developer
 
 Muhammad Idris Marzuki
 
 Stellar Web3 Competition Project
+
+---
 
 📜 License
 
