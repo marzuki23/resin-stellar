@@ -1,4 +1,4 @@
-Project Stellar
+## Project Stellar
 
 Blockchain-Based Certificate Verification Platform built on Stellar Soroban Smart Contracts.
 
@@ -52,8 +52,7 @@ The platform helps reduce fake certificates by providing immutable blockchain ve
 ### Contract ID
 
 
-CCHF4ZP5RREAUDUDXC266Q6HXDI6Z46GR4Z2EDKYEJGV24NDX5JK3VGC
-
+CCJ7IADZRIOHUP3WK4HQGXYXJ27XRM5L6JO2IEAFLYOC7443IKMPFB2R
 
 ### Issuer Address
 
@@ -154,7 +153,7 @@ npm run dev
 
 ---
 
-🔨 Smart Contract Deployment
+## 🔨 Smart Contract Deployment
 Build Smart Contract
 stellar contract build
 Deploy Smart Contract
@@ -162,7 +161,7 @@ stellar contract deploy --wasm target/wasm32v1-none/release/hello_world.wasm --s
 
 ---
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 Fake certificates and unverifiable credentials are major issues in digital education systems.
 
@@ -170,7 +169,8 @@ Many institutions still rely on centralized or paper-based verification systems 
 
 ---
 
-💡 How It Works
+## 💡 How It Works
+
 User uploads certificate image
 System generates SHA-256 hash
 Hash is stored via smart contract
@@ -179,14 +179,16 @@ Blockchain ensures authenticity
 
 ---
 
-🔒 Security Approach
+## 🔒 Security Approach
+
 Certificate images are stored off-chain
 Only SHA-256 hashes are stored on blockchain
 Ensures privacy, scalability, and efficiency
 
 ---
 
-🌍 Future Improvements
+## 🌍 Future Improvements
+
 Wallet Authentication
 IPFS Integration
 NFT-Based Certificates
@@ -197,7 +199,7 @@ AI-Based Fake Certificate Detection
 
 ---
 
-👨‍💻 Developer
+## 👨‍💻 Developer
 
 Muhammad Idris Marzuki
 
@@ -205,6 +207,6 @@ Stellar Web3 Competition Project
 
 ---
 
-📜 License
+## 📜 License
 
 Educational project for Stellar Web3 competition submission.
